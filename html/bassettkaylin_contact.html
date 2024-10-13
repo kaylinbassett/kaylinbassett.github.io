@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KConnect</title>
+    <link href= "../css/bassettkaylin_styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> KConnect </h1>
+    </header>
+
+    <nav>
+        <a href="../html/bassettkaylin_home.html">Home</a>
+        <a href="../html/bassettkaylin_fall.html">Fall</a>
+        <a href="../html/bassettkaylin_winter.html">Winter</a>
+        <a href="../html/bassettkaylin_contact.html">Contact</a>
+        <a href="../html/bassettkaylin_rl.html">Reference List</a>
+        <a href="../html/bassettkaylin_mylayout.html">Layout</a>
+        <a href="../html/bassettkaylin_myframework.html">Framework</a>
+    </nav>
+
+    <div style="display: flex; flex-wrap: wrap;">
+        <aside>
+            <h2>Don't want to submit a form?</h2>
+            <p>You can contact me personally at: <a href="mailto:kaylin.bassett@g.austincc.edu">kaylin.bassett@g.austincc.edu</a></p>
+        </aside>
+
+        <article>
+            <h2>Contact Me!</h2>
+            <p>
+                The whole point of this was to update as many people as possible, so please keep in touch!
+            </p>
+            <form id="friends" form action="http://www.example.com/redball/customer" method="post">
+                <div>
+                  <label for="name">Name: </label>
+                  <input type="text" id="name" name="nameinput" placeholder="First and Last Name" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                   <label for="phone">Phone: </label>
+                   <input type="text" id="phone" name="phoneinput"
+                   placeholder="(nnn) nnn-nnnn" required
+                   pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+                 </div>
+                 <br>
+                 <br>
+                 <div>
+                    <label for="comment">Comment: </label>
+                    <input type="text" id="comment" name="commentinput" placeholder="Type your comment here" required>
+                  </div>
+                  <br>
+                  <br>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+
+        <aside>
+            <h2>Don't want to contact me?</h2>
+            <p>You can keep up with my life via this website! 
+            </p>
+            <p>Stay Tuned!</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Kaylin Bassett &diams; Final Project &diams; Manuel Duran</p>
+    </footer>
+</body>
+</html>
